@@ -40,7 +40,7 @@ function breedSelect(id) {
     refs.loaderSpan.classList.add('is-hidden');
     refs.infoDiv.classList.remove('is-hidden');
     refs.infoDiv.classList.add('allign-items')
-    const creatediv = `<img src="${res.BREED_IMAGE}" class="margin-top" width="50%" height="50%" alt="${res.BREED_NAME}"></img>
+    const creatediv = `<img src="${res.BREED_IMAGE}" class="margin-top" width="40%" height="40%" alt="${res.BREED_NAME}"></img>
     <div class="margin-top-txt">
     <h1 class="">${res.BREED_NAME}</h1>
     <p>${res.BREED_DESCRIPTION}</p>
