@@ -41,4 +41,32 @@
   .is-hidden {
     display: none;
   }
-  
+
+  .margin-top {
+    margin-top: 40px;
+  }
+  .margin-bottom{
+    margin-bottom: 40px;
+    border: 1px solid #000000;
+  }
+  .margin-left{
+    margin-left: 20px;
+  }
+  .margin-right{
+    margin-right: 120px;
+  }
+  .allign-items{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  /* .allign-self{
+  } */
+
+  .margin-top-txt {
+    margin: auto 0;
+  }
+
+  .fat {
+    font-weight: bold;
+  }
