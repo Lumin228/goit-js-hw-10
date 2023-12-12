@@ -35,8 +35,7 @@ createBreed();
 function breedSelect(id) {
   refs.selector.classList.add('is-hidden');
   refs.loaderSpan.classList.remove('is-hidden');
-  let creatediv = ``
-  refs.infoDiv.innerHTML = creatediv
+  refs.infoDiv.innerHTML = ``;
   fetchCatByBreed(id).then(res => {
     refs.selector.classList.remove('is-hidden');
     refs.loaderSpan.classList.add('is-hidden');
